@@ -7,6 +7,16 @@ public class Main {
         Customer peter = new Customer("Peter", "ATU", "123", "123123123123", false);
         System.out.println(peter.toString());
 
+        Customer olamide = new Customer();
+        olamide.setName("Olamide");
+        olamide.setAddress("GMIT");
+        olamide.setNumber("696969");
+        olamide.setCustomerNumber("123235468943");
+        olamide.setMailingList(false);
 
+        System.out.println("Name: " + olamide.getName() + " Address: " + olamide.getAddress() + " Number: "
+                + olamide.getNumber() + " Customer Number: " + olamide.getCustomerNumber()
+                + " Mailing List: " + olamide.isMailingList());
+        System.out.println(olamide.toString());
     }
 }
